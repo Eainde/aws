@@ -84,6 +84,9 @@ address **compliance requirements** and reduce costs by allowing you to **use yo
 - Or for companies that have strong regulatory or compliance needs
 
 #### EC2 Dedicated Instances
+- Instances running on hardware that's dedicated to you
+- May share hardware with other instance in same account
+- No control over instance placement(can move hardware after Stop/Start)
 
 ![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/EC2_dedicated_instances.png)
 
