@@ -18,3 +18,19 @@ ec2-user is basically the linux user in the amazon linux machine.
 3. To fix the point 2 you have to run below command to secure your pem file.
 - chmod 0400 /Users/eainde/AD/AWS/EC2Tutorial.pem
 
+### EC2 Instances Purchasing Options
+- On-Demand Instances: short workload, predictable pricing
+- Reserved: (Minimum 1 year)
+  - Reserverd Instance: long workloads
+  - Convertible Reserverd Instances: long workloads with flexible instances
+  - Schedule Reserved Instances: example - every Thursday between 3 and 6 pm
+- Spot Instances: short worloads, cheap, can lose instances(less reliable)
+- Dedicated Hosts: book an entire physical server, control instance placement.
+
+
+### EC2 on Demand
+- Pay for what you see
+   - Linux or Windows - billing per second, after first minute
+   - All other operating system- billing per hour
+   
+
