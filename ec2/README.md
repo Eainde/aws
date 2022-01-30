@@ -85,7 +85,7 @@ address **compliance requirements** and reduce costs by allowing you to **use yo
 
 #### EC2 Dedicated Instances
 
-![](https://github.com/Eainde/aws/src/main/resources/images/ThreadPerModel.png)
+![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/EC2_dedicated_instances.png)
 
    
 
