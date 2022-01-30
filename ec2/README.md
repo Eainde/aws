@@ -91,6 +91,8 @@ address **compliance requirements** and reduce costs by allowing you to **use yo
 ![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/EC2_dedicated_instances.png)
 
 **Price Comparison**
+
+
 ![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/PRICE_COMPARISON.png)
 
 
