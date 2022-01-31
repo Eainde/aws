@@ -76,6 +76,18 @@ chmod 0400 /Users/eainde/AD/AWS/EC2Tutorial.pem
 
 ![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/terminate_spot_Instances.png)
 
+#### Spot Fleets
+- Spot Fleets = set of Spot Instances + (optional) On-Demand Instances
+- The Spot Fleet will try to meet the target capacity with price constraints
+  - Define possible launch pools: instance type(m5.large), OS, Availability Zone
+  - Can have multiple launch pools, so that the fleet can choose
+  - Spot Fleet stops launching instances when reaching capacity or max cost
+- Strategies to allocate Spot Instances:
+  - **lowest price**: from the pool with the lowest price(cost optimization, short workload)
+  - **diversified** : distributed accross all pools (great for availability, long workloads)
+  - **capacityOptimized**: pool with the optimal capacity for the number of instances
+- **Spot Fleets allow us to automatically request Spot Instances with the lowest price**
+
 ### EC2 Dedicated Hosts
 - An Amazon EC2 Dedicated Hosts is a physical server with EC2 instance capacity fully dedicated to your use. Dedicated Hosts can help you
 address **compliance requirements** and reduce costs by allowing you to **use your existing server-bound software licenses**
