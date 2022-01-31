@@ -43,7 +43,7 @@ chmod 0400 /Users/eainde/AD/AWS/EC2Tutorial.pem
 ### EC2 Reserved Instances
 - Up to 75% discount compared to On-demand
 - Reservation period: | year = + discount | 3 years = +++ discount
-- Purchasing options: no upfront | partial upfront = + | All upfront = ++ discount
+- Purchasing options: no upfront | partial upfront = + discount | All upfront = ++ discount
 - Reserve a specific instance type eg large
 - Recommended for steady-state usage applications(think database)
 
@@ -57,8 +57,9 @@ chmod 0400 /Users/eainde/AD/AWS/EC2Tutorial.pem
 - Still commitment over 1 to 3 years
 
 ### EC2 Spot Instances
-- Can get a discount upto 90% compared to On-demand
-- Instances that you can **lose** at any point pf time if your max price is less that the current spot price
+- Can get a discount up to 90% compared to On-demand
+- Instances that you can **lose** at any point of time, if your max price is less that the current spot price
+- If a current spot price > your max price you can choose to stop or terminate your instance wait a 2 minutes grace period
 - The MOST cost-efficient instances in AWS
 
 
@@ -71,6 +72,9 @@ chmod 0400 /Users/eainde/AD/AWS/EC2Tutorial.pem
 
 
 - Not suitable for critical jobs or databases
+
+
+![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/terminate_spot_Instances.png)
 
 ### EC2 Dedicated Hosts
 - An Amazon EC2 Dedicated Hosts is a physical server with EC2 instance capacity fully dedicated to your use. Dedicated Hosts can help you
@@ -88,9 +92,11 @@ address **compliance requirements** and reduce costs by allowing you to **use yo
 
 ![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/EC2_dedicated_instances.png)
 
-**Price Comparison**
+**Price Comparison** 
 
 
 ![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/PRICE_COMPARISON.png)
+
+
 
 
