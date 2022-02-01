@@ -5,3 +5,11 @@
 
 
 ![](https://github.com/Eainde/aws/blob/main/iam/src/main/resources/PERMISSIONS.png)
+
+
+![](https://github.com/Eainde/aws/blob/main/iam/src/main/resources/POLICIES.png)
+
+
+![](https://github.com/Eainde/aws/blob/main/iam/src/main/resources/POLICY_STRUCTURE.png)
+
+
