@@ -11,6 +11,17 @@
 
 ![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/EC2_EXAMPLE.png)
 
+## Security Groups
+
+
+![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/SECURITY_GROUPS.png)
+
+
+![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/SECURITY_GROUPS_1.png)
+
+
+![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/PORTS.png)
+
 ## SSH EC2 instance
 
 ```shell
