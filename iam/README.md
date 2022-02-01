@@ -25,5 +25,21 @@
 ![](https://github.com/Eainde/aws/blob/main/iam/src/main/resources/SDK.png)
 
 
+## AWS CLI COMMAND
+- aws --version
+- aws configure
+- aws iam list-users
+
+**Initial Configuration**
+
+![](https://github.com/Eainde/aws/blob/main/iam/src/main/resources/INTIAL_CONFIG.png)
+
+## Cloud Shell
+It is a alternative for terminal in local.
+
+![](https://github.com/Eainde/aws/blob/main/iam/src/main/resources/CLOUD_SHELL.png)
+
+
+
 
 
