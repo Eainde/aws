@@ -40,6 +40,15 @@ It is a alternative for terminal in local.
 ![](https://github.com/Eainde/aws/blob/main/iam/src/main/resources/CLOUD_SHELL.png)
 
 
+![](https://github.com/Eainde/aws/blob/main/iam/src/main/resources/ROLES.png)
+
+
+![](https://github.com/Eainde/aws/blob/main/iam/src/main/resources/SECURITY_TOOLS.png)
+
+
+
+![](https://github.com/Eainde/aws/blob/main/iam/src/main/resources/BEST_PRACTICIES.png)
+
 
 
 
