@@ -1,5 +1,16 @@
 # EC2 (Elastic Compute Cloud)
 
+![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/EC2.png)
+
+
+![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/EC2_CONFIG.png)
+
+
+![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/EC2_USER_DATA.png)
+
+
+![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/EC2_EXAMPLE.png)
+
 ## SSH EC2 instance
 
 ```shell
