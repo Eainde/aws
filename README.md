@@ -1,5 +1,7 @@
 # AWS (AMAZON WEB SERVICE)
 
+[AWS DOCS](https://docs.aws.amazon.com/index.html)
+
 ![](https://github.com/Eainde/aws/blob/main/images/AWS.png)
 
 
