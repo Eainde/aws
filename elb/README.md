@@ -64,4 +64,8 @@
 
 ![](https://github.com/Eainde/aws/blob/main/elb/src/main/resources/SSL_3.png)
 
+## Connection Draining
+
+![](https://github.com/Eainde/aws/blob/main/elb/src/main/resources/CONNECTION_DRAINING.png)
+
 
