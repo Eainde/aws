@@ -27,3 +27,13 @@
 ![](https://github.com/Eainde/aws/blob/main/elb/src/main/resources/ALB_4.png)
 
 ![](https://github.com/Eainde/aws/blob/main/elb/src/main/resources/ALB_5.png)
+
+## Network Load Balancer
+
+![](https://github.com/Eainde/aws/blob/main/elb/src/main/resources/NLB.png)
+
+![](https://github.com/Eainde/aws/blob/main/elb/src/main/resources/NLB_1.png)
+
+![](https://github.com/Eainde/aws/blob/main/elb/src/main/resources/NLB_2.png)
+
+
