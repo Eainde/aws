@@ -48,4 +48,10 @@
 
 ![](https://github.com/Eainde/aws/blob/main/elb/src/main/resources/STICKENESS_1.png)
 
+## Cross-Zone Load Balancing
+
+![](https://github.com/Eainde/aws/blob/main/elb/src/main/resources/CROSS_ZONE.png)
+
+![](https://github.com/Eainde/aws/blob/main/elb/src/main/resources/CROSS_ZONE_1.png)
+
 
