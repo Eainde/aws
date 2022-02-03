@@ -42,4 +42,10 @@
 
 ![](https://github.com/Eainde/aws/blob/main/elb/src/main/resources/GLB1.png)
 
+## STICKY SESSIONS
+
+![](https://github.com/Eainde/aws/blob/main/elb/src/main/resources/STICKENESS.png)
+
+![](https://github.com/Eainde/aws/blob/main/elb/src/main/resources/STICKENESS_1.png)
+
 
