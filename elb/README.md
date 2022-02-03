@@ -9,3 +9,7 @@
 ![](https://github.com/Eainde/aws/blob/main/elb/src/main/resources/ELB_3.png)
 
 ![](https://github.com/Eainde/aws/blob/main/elb/src/main/resources/ELB_4.png)
+
+## Classic Load Balancer
+
+![](https://github.com/Eainde/aws/blob/main/elb/src/main/resources/CLASSIC_LOAD_BALANCER.png)
