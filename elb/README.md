@@ -13,3 +13,17 @@
 ## Classic Load Balancer
 
 ![](https://github.com/Eainde/aws/blob/main/elb/src/main/resources/CLASSIC_LOAD_BALANCER.png)
+
+## Application Load Balancer
+
+![](https://github.com/Eainde/aws/blob/main/elb/src/main/resources/ALB.png)
+
+![](https://github.com/Eainde/aws/blob/main/elb/src/main/resources/ALB_1.png)
+
+![](https://github.com/Eainde/aws/blob/main/elb/src/main/resources/ALB_2.png)
+
+![](https://github.com/Eainde/aws/blob/main/elb/src/main/resources/ALB_3.png)
+
+![](https://github.com/Eainde/aws/blob/main/elb/src/main/resources/ALB_4.png)
+
+![](https://github.com/Eainde/aws/blob/main/elb/src/main/resources/ALB_5.png)
