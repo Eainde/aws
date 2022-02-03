@@ -36,4 +36,10 @@
 
 ![](https://github.com/Eainde/aws/blob/main/elb/src/main/resources/NLB_2.png)
 
+## Gateway Load Balancer (out of syllabus)
+
+![](https://github.com/Eainde/aws/blob/main/elb/src/main/resources/GLB.png)
+
+![](https://github.com/Eainde/aws/blob/main/elb/src/main/resources/GLB1.png)
+
 
