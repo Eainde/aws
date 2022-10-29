@@ -10,6 +10,14 @@
 
 ![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/EC2_Instance_type_overview.png)
 
+![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/EC2_instance_type_general_purpose.png)
+
+![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/EC2_instance_type_compute_optimised.png)
+
+![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/EC2_instance_type_memory_optimised.png)
+
+![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/EC2_instance_type_storage_optimised.png)
+
 ![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/EC2_EXAMPLE.png)
 
 ## Security Groups
