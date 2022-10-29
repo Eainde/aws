@@ -8,6 +8,7 @@
 
 ![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/EC2_USER_DATA.png)
 
+![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/EC2_Instance_type_overview.png)
 
 ![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/EC2_EXAMPLE.png)
 
