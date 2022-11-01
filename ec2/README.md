@@ -90,12 +90,18 @@ chmod 0400 /Users/eainde/AD/AWS/EC2Tutorial.pem
 
 ### EC2 Spot Instances
 - Can get a discount up to 90% compared to On-demand
+- Define max spot price and get the instance while **current spot price < max**
+  - The hourly spot price varies based on offer and capacity
+  - If a current spot price > your max price you can choose to stop or terminate your instance wait a 2 minutes grace period
 - Instances that you can **lose** at any point of time, if your max price is less that the current spot price
-- If a current spot price > your max price you can choose to stop or terminate your instance wait a 2 minutes grace period
 - The MOST cost-efficient instances in AWS
+- Other Strategy: **Spot Block**
+  - "block" spot instance during specified time frame(1 to 6 hours) withour intrruptions
+  - In rare situations, the instance may be reclaimed 
+  - This is depreciated and will be removed by 31st Dec 2022
 
 
--Useful for workloads that are resilient to failure
+- Useful for workloads that are resilient to failure
   - Batch Job
   - Data analysis
   - Image processing
