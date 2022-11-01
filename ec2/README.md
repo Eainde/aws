@@ -58,9 +58,11 @@ chmod 0400 /Users/eainde/AD/AWS/EC2Tutorial.pem
 - Reserved: (Minimum 1 year)
   - Reserved Instance: long workloads
   - Convertible Reserved Instances: long workloads with flexible instances
-  - Schedule Reserved Instances: example - every Thursday between 3 and 6 pm
+- Savings Plan (1 & 3 years) - commitment to an amount of usage, long workload
 - Spot Instances: short workloads, cheap, can lose instances(less reliable)
 - Dedicated Hosts: book an entire physical server, control instance placement.
+- Dedicated Instances: no other customer will share your hardware
+- Capacity Reservations: reserve capacity in a specific AZ for any duration
 
 
 ### EC2 on Demand
@@ -69,23 +71,22 @@ chmod 0400 /Users/eainde/AD/AWS/EC2Tutorial.pem
    - All other operating system- billing per hour
 - Has the highest cost but no upfront payment
 - No long term commitment
-- Recommended for short term and un-interrupted workloads, where you can't predict how the application will behave
+- Recommended for **short term** and **un-interrupted workloads**, where you can't predict how the application will behave
 
 ### EC2 Reserved Instances
 - Up to 75% discount compared to On-demand
-- Reservation period: | year = + discount | 3 years = +++ discount
-- Purchasing options: no upfront | partial upfront = + discount | All upfront = ++ discount
-- Reserve a specific instance type eg large
+- You reserve a specific instance attributes(Instance Type, region, Tenancy, OS)
+- Reservation period: 1 year (+discount) or 3 years(+++ discount)
+- Payment options: no upfront(+discount), partial upfront (++discount), All upfront (++discount)
+- Reserved Instance's scope - Regional or Zonal(reserve capacity in an AZ)
 - Recommended for steady-state usage applications(think database)
 
 ##### Convertible Reserved Instance
-- Can change the EC2 instance type(eg. change to t2 large C5 large )
-- Up to 54% discount(less discount)
+- Can change the EC2 instance type(e.g. change to t2 large C5 large ), instance family, OS, scope and tenancy
+- Up to 66% discount(less discount)
 
-##### Scheduled Reserved Instances
-- launch within time window you reserve
-- When you require a fraction of day/ week / month
-- Still commitment over 1 to 3 years
+### EC2 Savings Plan
+![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/EC2_savings_plans.png)
 
 ### EC2 Spot Instances
 - Can get a discount up to 90% compared to On-demand
@@ -120,10 +121,12 @@ chmod 0400 /Users/eainde/AD/AWS/EC2Tutorial.pem
 - **Spot Fleets allow us to automatically request Spot Instances with the lowest price**
 
 ### EC2 Dedicated Hosts
-- An Amazon EC2 Dedicated Hosts is a physical server with EC2 instance capacity fully dedicated to your use. Dedicated Hosts can help you
-address **compliance requirements** and reduce costs by allowing you to **use your existing server-bound software licenses**
-- Allocated for your account for a 3-year period reservation
-- More expensive
+- An Amazon EC2 Dedicated Hosts is a physical server with EC2 instance capacity fully dedicated to your use. 
+- Dedicated Hosts can help you address **compliance requirements** and reduce costs by allowing you to **use your existing server-bound software licenses**
+- Purchasing Option:
+  - On demand - pay per second for active dedicated host
+  - Reserved- 1 or 3 years(No upfront, partial upfront, All upfront)
+- The most expensive option
 
 - Useful for software that have complicated licensing model(BYOL- Bring your Own License)
 - Or for companies that have strong regulatory or compliance needs
@@ -137,8 +140,14 @@ address **compliance requirements** and reduce costs by allowing you to **use yo
 
 **Price Comparison** 
 
-
 ![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/PRICE_COMPARISON.png)
+
+### EC2 Capacity Reservations
+![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/EC2-CAPACITY-RESERVATIONS.png)
+
+### Which purchasing option right for you?
+
+![](https://github.com/Eainde/aws/blob/main/ec2/src/main/resources/WHICH-IS-RIGHT-FOR-ME.png)
 
 
 
